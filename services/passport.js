@@ -14,8 +14,19 @@ passport.use(new GoogleStrategy(
             callbackURL: '/auth/google/callback'
         },
         (accessToken, refreshToken, profile, done) => {
-            new User({ googleId: profile.id, name: profile.displayName }).save();
-            console.log(profile);
+            User.findOne({ googleId: profile.id })
+                .then((existingUser) => {
+                    if (existingUser) {
+                        // we already have user; do not add to db
+                        done(null, existingUser);
+                    } else {
+                        new User({ googleId: profile.id, name: profile.displayName })
+                            .save()
+                            .then( user => done(null, user));
+                    }
+            });
+
+
 
         }
     )
