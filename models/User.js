@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
-const userScheme = new Schema ({
-   googleId: String
+const userSchema = new Schema ({
+   googleId: String,
+   name: String
 });
 
 mongoose.model('users', userSchema);
