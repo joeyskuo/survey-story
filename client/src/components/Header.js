@@ -28,7 +28,7 @@ class Header extends Component {
                         className="left brand-logo"
                         to={this.props.auth ? '/surveys' : '/'}
                     >
-                        Survey Stork
+                        SurveyStory
                     </Link>
                     <ul className="right">
                         {this.renderContent()}
