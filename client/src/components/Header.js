@@ -11,7 +11,7 @@ class Header extends Component {
                 return;
             case false:
                 return (
-                    <li><a href="/auth/google">Login with Google</a></li>
+                    <li><a href="/auth/google">Google OAuth Login</a></li>
                 );
             default:
                 return [
@@ -26,8 +26,8 @@ class Header extends Component {
 
     render() {
         return (
-            <nav>
-                <div className="nav-wrapper">
+            <nav style={{'background-color': '#0b6b64'}}>
+                <div className="nav-wrapper" >
                     <Link
                         className="left brand-logo"
                         style={{ margin: '0 20px' }}
