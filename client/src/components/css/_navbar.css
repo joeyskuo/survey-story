@@ -1,0 +1,44 @@
+.row {
+    position: absolute;
+    width: 100%;
+    left: 12%;
+    //transform: translate(0, -50%);
+}
+
+.logo {
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav {
+    margin-top: 60px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 4px 0;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
