@@ -5,6 +5,7 @@ import * as actions from '../actions';
 
 import Navbar from './Navbar';
 import Header2 from './Header2';
+import Features from './Features';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
@@ -21,7 +22,7 @@ class App extends Component {
                 <BrowserRouter>
                     <div>
                         <Navbar/>
-                        <Header2 />
+                        <Features />
                         <Route exact path='/' component={Landing}/>
                         <Route exact path='/surveys' component={Dashboard}/>
                         <Route path='/surveys/new' component={SurveyNew}/>
