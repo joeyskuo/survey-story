@@ -23,6 +23,7 @@ class SurveyForm extends Component {
 
     render() {
         return (
+            <section>
             <div className="contact-form">
                 <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                     {this.renderFields()}
@@ -35,6 +36,7 @@ class SurveyForm extends Component {
                     </button>
                 </form>
             </div>
+            </section>
         );
     }
 }

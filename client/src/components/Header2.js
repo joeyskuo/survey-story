@@ -7,7 +7,7 @@ const Header2 = () => {
             <div className="hero-text-box">
                 <h1>Goodbye guesswork.<br/> Hello surveystory.</h1>
                 <Link to="/features" className="btn btn-full" >How it works</Link>
-                <Link to="/features" className="btn btn-ghost" >Create a survey</Link>
+                <Link to="/surveys/new" className="btn btn-ghost" >Create a survey</Link>
             </div>
         </header>
     )
