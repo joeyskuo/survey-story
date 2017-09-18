@@ -9,7 +9,7 @@ import Features from './Features';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
-
+import Subscription from './Subscription';
 
 class App extends Component {
 
@@ -22,7 +22,7 @@ class App extends Component {
                 <BrowserRouter>
                     <div>
                         <Navbar/>
-                        <Features />
+                        <Subscription />
                         <Route exact path='/' component={Landing}/>
                         <Route exact path='/surveys' component={Dashboard}/>
                         <Route path='/surveys/new' component={SurveyNew}/>

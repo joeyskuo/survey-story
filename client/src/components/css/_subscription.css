@@ -1,0 +1,124 @@
+section {
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../../res/images/hero.jpg);
+    height: 100vh;
+    background-color: lightskyblue;
+    background-size: cover;
+    background-position: center;
+    color: #555;
+    padding: 80px 0;
+}
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 5px;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.features {
+    margin-top: 60px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.btn-ghost {
+    background-color: #fff;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price {
+    font-size: 200%;
+    color: #e67e22;
+
+}
+
+.plan-price span {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box li i {
+    padding: 0 5px;
+    color: #e67e22;
+    font-size: 120%;
+}
+
+.plan {
+    background-color: #fcfcfc;
+    border-radius: inherit;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
