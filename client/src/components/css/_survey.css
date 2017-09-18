@@ -1,0 +1,33 @@
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn-cancel {
+
+}
+
+.btn-next {
+    float: right;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 200;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: all 0.7s;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}

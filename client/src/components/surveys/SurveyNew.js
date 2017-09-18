@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { reduxForm } from 'redux-form';
 import SurveyForm from './SurveyForm';
 import SurveyReviewForm from './SurveyReviewForm';
-
+import '../css/_survey.css';
+import '../css/_header.css';
 class SurveyNew extends Component {
 
     state = { showReviewForm: false };

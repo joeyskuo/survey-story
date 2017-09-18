@@ -3,8 +3,8 @@ import React from 'react';
 export default ({ input, label, meta: { error, touched } }) => {
     return (
         <div>
-            <label>{label}</label>
-            <input {...input} style={{ marginBottom: '5px' }} />
+            <label className="col span-1-of-3">{label}</label>
+            <input className="col span-2-of-3" {...input} />
             <div className="red-text" style= {{ marginBottom: '20px' }}>
             { touched && error }
             </div>
