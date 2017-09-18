@@ -1,13 +1,13 @@
 import React from 'react';
 import './css/_header.css';
-
+import { Link } from 'react-router-dom';
 const Header2 = () => {
     return (
         <header>
             <div className="hero-text-box">
-                <h1>Goodbye junk food.<br/> Hello super healthy meals.</h1>
-                <a className="btn btn-full" href="#">I'm hungry</a>
-                <a className="btn btn-ghost" href="#">Show me more</a>
+                <h1>Goodbye guesswork.<br/> Hello surveystory.</h1>
+                <Link to="/features" className="btn btn-full" >How it works</Link>
+                <Link to="/features" className="btn btn-ghost" >Create a survey</Link>
             </div>
         </header>
     )
