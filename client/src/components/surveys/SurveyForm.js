@@ -27,9 +27,6 @@ class SurveyForm extends Component {
             <div className="contact-form">
                 <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                     {this.renderFields()}
-                    <Link to="/surveys" className="btn btn-full btn-cancel">
-                        Cancel
-                    </Link>
                     <button type="submit" className="btn btn-full btn-next">
                         Next{"     "}
                         <i className="ion-ios-arrow-right"></i>

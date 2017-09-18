@@ -1,11 +1,5 @@
-section {
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../../res/images/hero.jpg);
-    height: 100vh;
-    background-color: lightskyblue;
-    background-size: cover;
-    background-position: center;
-    color: #555;
-    padding: 80px 0;
+.wrapper-price {
+    padding-top: 80px;
 }
 
 .icon-big {
@@ -35,21 +29,11 @@ h3 {
     margin-top: 60px;
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 2.4rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-}
-
 h2 {
     font-size: 140%;
     word-spacing: 2px;
     text-align: center;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -61,6 +45,7 @@ h2:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .row {
@@ -121,4 +106,9 @@ h2:after {
 
 .plan-box div:last-child {
     text-align: center;
+}
+
+.row-plans {
+    left: 15%;
+    right: 15%;
 }

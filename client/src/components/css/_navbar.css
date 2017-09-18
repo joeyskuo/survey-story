@@ -2,18 +2,13 @@
     position: absolute;
     width: 100%;
     left: 12%;
-    //transform: translate(0, -50%);
+    z-index: 10;
+    //transform: translate(0, -40%);
 }
 
-.logo {
-    margin-top: 20px;
-    height: 100px;
-    width: auto;
-    float: left;
-}
 
 .main-nav {
-    margin-top: 60px;
+    margin-top: 80px;
     float: right;
     list-style: none;
 }
