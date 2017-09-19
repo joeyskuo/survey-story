@@ -19,7 +19,9 @@ textarea {
     height: 100px;
 }
 
-
+.red-text {
+    color: #db1e26;
+}
 .btn-next {
     float: right;
     display: inline-block;

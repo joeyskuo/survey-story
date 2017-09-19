@@ -95,8 +95,15 @@ h2:after {
 
 .plan-box li i {
     padding: 0 5px;
+    font-size: 90%;
+}
+
+.ion-close-round {
+    color: dimgray;
+}
+
+.ion-checkmark-round {
     color: #e67e22;
-    font-size: 120%;
 }
 
 .plan {

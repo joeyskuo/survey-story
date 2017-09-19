@@ -9,7 +9,7 @@ const Features = () => {
                 <div className="row row-heading">
                     <h2>Get valuable feedback &mdash; not dud answers</h2>
                     <p className="long-copy">
-                        We're more than just survey software. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        We're more than just survey software. Get access to people powered data, at scale and in real time. Discover insights and new ideas to drive your business forward.
                     </p>
                 </div>
                 <br/><br/>

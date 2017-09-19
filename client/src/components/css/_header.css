@@ -18,12 +18,15 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-
+.intro {
+    color: white;
+    padding-bottom: 10px;
+}
 
 .btn:link, .btn:visited {
     display: inline-block;
     padding: 10px 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     border-radius: 200px;
     transition: all 0.7s;

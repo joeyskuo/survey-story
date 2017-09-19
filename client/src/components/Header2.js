@@ -5,7 +5,8 @@ const Header2 = () => {
     return (
         <header>
             <div className="hero-text-box">
-                <h1>Say goodbye to boring ads.<br/> Hello, beautiful surveys.</h1>
+                <h1>Survey the world <br/>for better insights</h1>
+                <p className="intro">Measure and improve customer experience with beautiful surveys</p>
                 <Link to="/features" className="btn btn-full" >How it works</Link>
                 <Link to="/surveys/new" className="btn btn-ghost" >Create a survey</Link>
             </div>

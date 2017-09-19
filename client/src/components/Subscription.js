@@ -16,10 +16,10 @@ const Subscription = () => {
                             </div>
                             <div>
                                 <ul>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Basic question types</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Metrics & Reporting</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Data API</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Embedding</li>
+                                    <li><i className="ion-checkmark-round"></i>Basic question types</li>
+                                    <li><i className="ion-checkmark-round"></i>Metrics & Reporting</li>
+                                    <li><i className="ion-close-round"></i>Data API</li>
+                                    <li><i className="ion-close-round"></i>Embedding</li>
                                 </ul>
                             </div>
                             <div>
@@ -36,10 +36,10 @@ const Subscription = () => {
                             </div>
                             <div>
                                 <ul>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Basic question types</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Metrics & Reporting</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Data API</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Embedding</li>
+                                    <li><i className="ion-checkmark-round"></i>Basic question types</li>
+                                    <li><i className="ion-checkmark-round"></i>Metrics & Reporting</li>
+                                    <li><i className="ion-checkmark-round"></i>Data API</li>
+                                    <li><i className="ion-close-round"></i>Embedding</li>
                                 </ul>
                             </div>
                             <div>
@@ -56,10 +56,10 @@ const Subscription = () => {
                             </div>
                             <div>
                                 <ul>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Basic question types</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Metrics & Reporting</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Data API</li>
-                                    <li><i className="ion-ios-checkmark-empty"></i>Embedding</li>
+                                    <li><i className="ion-checkmark-round"></i>Basic question types</li>
+                                    <li><i className="ion-checkmark-round"></i>Metrics & Reporting</li>
+                                    <li><i className="ion-checkmark-round"></i>Data API</li>
+                                    <li><i className="ion-checkmark-round"></i>Embedding</li>
                                 </ul>
                             </div>
                             <div>
