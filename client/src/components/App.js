@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
+import './css/font-awesome.min.css';
+import './css/ionicons.min.css';
 import './css/main.css';
 import Navbar from './Navbar';
 import Header2 from './Header2';

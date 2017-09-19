@@ -8,8 +8,9 @@ const Login = () => {
             <div className="hero-text-box">
                 <p>Log in to SurveyStory using...</p>
                 <div>
-                    <a href="#" class="fa fa-facebook">facebook</a>
-                    <a href="#" class="fa fa-twitter">twitter</a>
+                    <i className="fa fa-google-plus" ></i>
+                    <i className="fa fa-twitter"></i>
+                    <i className="fa fa-facebook"></i>
                 </div>
                 <p>or use your email...</p>
                 <input type="text"/>
