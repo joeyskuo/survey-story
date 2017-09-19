@@ -33,7 +33,7 @@ const Features = () => {
                         <i className="ion-ios-list-outline icon-big"></i>
                         <h3>Ask for Anything</h3>
                         <p>
-                            Easily customize your surveys to collect the information you need. Measure customer satisfaction, perform market research, or even conduct A/B testing.
+                            Easily customize your surveys to collect the information you need.
                         </p>
                     </div>
                     <div className="col span-1-of-4 box">
